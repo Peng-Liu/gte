@@ -42,7 +42,7 @@ import org.xml.sax.SAXException;
  * @author Mark Egesdal
  */
 @SuppressWarnings("serial")
-public class TreeServlet extends AbstractRESTServlet 
+public class LemkeLCPServlet extends AbstractRESTServlet 
 {
 	private static final Logger log = Logger.getLogger(TreeServlet.class.getName());
 
