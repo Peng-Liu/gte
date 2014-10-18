@@ -44,7 +44,7 @@ import org.xml.sax.SAXException;
 @SuppressWarnings("serial")
 public class LemkeLCPServlet extends AbstractRESTServlet 
 {
-	private static final Logger log = Logger.getLogger(TreeServlet.class.getName());
+	private static final Logger log = Logger.getLogger(LemkeLCPServlet.class.getName());
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
