@@ -6,7 +6,9 @@
 	<meta name="language" content="en" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
-	
+
+	<link rel="icon" type="image/png" href="8size32.ico">
+
 	<script src="swfobject.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
 	<script type="text/javascript" src="js/jquery.bpopup-0.7.0.min.js"></script>
@@ -230,12 +232,11 @@
 </head>
 <body onload="javascript:prepareVars();">
 	<div id="titleContainer" style="text-align: left; width: 100%; margin: auto; background-color: #303030; color: #ffffff; padding: 0px 5px 0px 5px; border-left: 1px solid #303030; border-right: 1px solid #303030;">
-		<img style="display:inline; vertical-align: middle; border: #808080 solid 1px; margin: 5px 5px 5px 0px;" src="minitree_32x32.png" />
+		<img style="display:inline; vertical-align: middle; border: #808080 solid 1px; margin: 5px 5px 5px 0px;" src="horiz8_small.png" />
 		<div style="vertical-align: middle; display: inline-block; margin: 5px 5px 5px 0px;">
-			<h3 style="display: inline; font-family: Helvetica;">Game Theory Explorer <span style="color: #ffd700">&#946;</span></h3><br/>
-			<em style="font-size: 13px; font-family: Helvetica; color: #a0a0a0;">Build, explore and solve extensive form games.</em>
+			<h3 style="display: inline; font-family: Helvetica;">Game Theory Explorer <span style="color: #ffd700">&#946; </span></h3>
 		</div>
-		<div style="vertical-align: middle; display: inline-block; margin: 5px 5px 5px 0px; float: right;">
+		<div style="vertical-align: middle; display: inline-block; margin: 5px 15px 5px 0px; float: right;">
 		<em id="creditPopup" style="font-size: 13px; font-family: Helvetica; color: #a0a0a0; text-decoration:underline;cursor:pointer;">Credits and Feedback</em>
 		</div>
 	</div>
@@ -285,16 +286,16 @@
 
  
 
-    <div id="creditsContainer" style="display:none; font-size: 10px; font-family: Helvetica; text-align: left; margin: auto; background-color: #303030; color: #a0a0a0; padding: 3px 5px 3px 5px; border-left: 1px solid #303030; border-right: 1px solid #303030; width:400px;height:200px;">
-		<img style="display:inline; vertical-align: middle; border: #808080 solid 1px; margin: 5px 5px 5px 0px;" src="minitree_32x32.png" />
+    <div id="creditsContainer" style="display:none; font-size: 10px; font-family: Helvetica; text-align: left; margin: auto; background-color: #303030; color: #a0a0a0; padding: 3px 5px 3px 5px; border-left: 1px solid #303030; border-right: 1px solid #303030; width:500px;height:200px;">
+		<img style="display:inline; vertical-align: middle; border: #808080 solid 1px; margin: 5px 5px 5px 0px;" src="8size32.ico" />
 		<div style="vertical-align: middle; display: inline-block; margin: 5px 5px 5px 0px;">
 			<h3 style="display: inline; font-family: Helvetica;">Game Theory Explorer <span style="color: #ffd700">&#946;</span></h3><br/>
-			<em style="font-size: 13px; font-family: Helvetica; color: #a0a0a0;">Build, explore and solve extensive form games.</em>
+			<em style="font-size: 13px; font-family: Helvetica; color: #a0a0a0;">Build, explore and solve extensive-form and strategic-form games.</em>
 		</div>
 		<br/>
 		<div>
 		<div style="display: inline-block; margin-bottom: 5px;">Last modified: yyyy-MM-dd hh:mm GMT</div><br/>
-		Developed by <span style="color: #ffffff;">Mark Egesdal, Alfonso Gomez-Jordana and Martin Prause</span><br/>Lemke algorithm and Sequence Form implementations adapted from the work of Bernhard von Stengel.<br/><br/>Lrs algorithm implementation adapted from the work of David Avis.  Lrs enumeration adapted from the work of Rahul Savani.<br/>Most icons courtesy of the Silk Icon Set created by Mark James.
+		GTE is developed under the <a href="https://www.gnu.org/licenses/gpl.txt" style="color: white">GNU GENERAL PUBLIC LICENSE</a>. Developed by <span style="color: #ffffff;">Mark Egesdal, Alfonso Gomez-Jordana, Martin Prause, Rahul Savani, and Bernhard von Stengel.</span><br/><br/>Lemke algorithm and Sequence Form implementations adapted from the work of Bernhard von Stengel. Lrs algorithm implementation adapted from the work of David Avis.  Lrs enumeration adapted from the work of Rahul Savani.<br/><br/>Most icons courtesy of the Silk Icon Set created by Mark James.
 		</div>
 		<br/>
 		<em id="creditClose" style="font-size: 13px; font-family: Helvetica; color: #a0a0a0; text-decoration:underline;cursor:pointer;margin:auto">Close</em>
