@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Servlets>
-  <Servlet Name="LrsCServlet">
+  <Servlet Name="Lrs in C : All Eq in NF">
     <Active>1</Active>
-    <Tooltip>LrsCServlet</Tooltip>
+    <Tooltip>Lrs in C : All Eq (Strategic Form)</Tooltip>
     <Url>/gte/lrsc/servlet</Url>
     <Type>nf</Type>
     <Directory>native-algo/lrslib-042c/</Directory>
@@ -23,9 +23,9 @@
   </Servlet> 
   -->
   
-  <Servlet Name="Lrs Find All Eq">
+  <Servlet Name="Lrs : Find All Eq in NF">
     <Active>1</Active>
-    <Tooltip>Lrs Find All Equilibria</Tooltip>
+    <Tooltip>Lrs Find All Equilibria (Strategic Form)</Tooltip>
     <Url>/gte/matrix/</Url>
     <Type>nf</Type>
     <Directory></Directory>
@@ -33,16 +33,8 @@
   </Servlet>
 
 
-  <Servlet Name="Lemke NF Eq">
-    <Active>1</Active>
-    <Tooltip>Lemke Find One Equilibrium</Tooltip>
-    <Url>/gte/matrix/</Url>
-    <Type>nf</Type>
-    <Directory></Directory>
-    <MaxSeconds>600</MaxSeconds>
-  </Servlet>
   
-    <Servlet Name="Lemke SF Eq">
+  <Servlet Name="Lemke : One Eq in SF">
     <Active>1</Active>
     <Tooltip>Lemke Find One Equilibrium (Sequence Form)</Tooltip>
     <Url>/gte/tree/</Url>
@@ -52,13 +44,23 @@
   </Servlet>
 
   
-  <Servlet Name="Lrs All Seq">
+  <Servlet Name="Lrs : Find All Eq in SF">
     <Active>1</Active>
-    <Tooltip>Lrs Find All Sequence Form Equilibrium</Tooltip>
+    <Tooltip>Lrs Find All Equilibria (Sequence Form)</Tooltip>
     <Url>/gte/tree/</Url>
     <Type>xf</Type>
     <Directory></Directory>
     <MaxSeconds>600</MaxSeconds>
   </Servlet>
-
-  </Servlets>
+  
+  
+  <Servlet Name="Lemke : One Eq in NF">
+    <Active>1</Active>
+    <Tooltip>Lemke Find One Equilibrium (Strategic Form)</Tooltip>
+    <Url>/gte/matrix/</Url>
+    <Type>nf</Type>
+    <Directory></Directory>
+    <MaxSeconds>600</MaxSeconds>
+  </Servlet>
+  
+</Servlets>

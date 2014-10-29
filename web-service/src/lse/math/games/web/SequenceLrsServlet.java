@@ -96,6 +96,7 @@ public class SequenceLrsServlet extends AbstractRESTServlet
 
 				if (tree != null) 
 				{
+					System.out.println("Huang's Algorithm (2011) ====>");
 					eqs = solver.extensiveFormSolver(tree);
 				}
 			}
